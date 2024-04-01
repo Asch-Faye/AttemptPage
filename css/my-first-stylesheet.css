@@ -1,12 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
   background-color: #d5e8e6 !important;
-  border: 2px solid #808080;
-  border-radius: 16px;
   font-family: sans-serif;
   margin-left: auto;
   margin-right: auto;
   max-width: 1536px;
-  min-width: 246px;
+  min-width: 256px;
   padding-top: 8px;
   padding-bottom: 24px;
   padding-left: 24px;
@@ -40,4 +45,49 @@ nav ul li: last-child {
 nav ul li a {
   text-decoration: none;
   color: #111111;
+}
+
+section {
+  background-color: #FFFFFF;
+  margin-bottom: 24px;
+  min-height: 320px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+aside {
+}
+
+footer {
+}
+
+img.small {
+  float: left;
+  height: 200px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+}
+
+img.medium {
+  max-width: 360px;
+  width: 50%;
+}
+
+img.large {
+  width: 100%;
+}
+
+body, section, img {
+  border: 2px solid #B1B1B1;
+  border-radius: 16px;
+}
+
+aside {
+  float: left;
+  padding-left: 24px;
+  width: 34%;
+}
+
+footer {
+  clear: both;
 }
