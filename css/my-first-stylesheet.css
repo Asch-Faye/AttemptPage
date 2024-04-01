@@ -55,9 +55,6 @@ section {
   padding-right: 24px;
 }
 
-aside {
-}
-
 img.small {
   float: left;
   height: 200px;
@@ -77,16 +74,4 @@ img.large {
 body, section, img {
   border: 2px solid #B1B1B1;
   border-radius: 16px;
-}
-
-@media all and (min-width: 900px) {
-  article {
-    float: left;
-    width: 65%;
-  }
-  aside {
-    float: left;
-    padding-left: 24px;
-    width: 34%;
-  }
 }
