@@ -58,9 +58,6 @@ section {
 aside {
 }
 
-footer {
-}
-
 img.small {
   float: left;
   height: 200px;
@@ -88,6 +85,14 @@ aside {
   width: 34%;
 }
 
-footer {
-  clear: both;
+@media all and (min-width: 900px) {
+  article {
+    float: left;
+    width: 66%;
+  }
+  aside {
+    float: left;
+    padding-left: 24px;
+    width: 34%;
+  }
 }
