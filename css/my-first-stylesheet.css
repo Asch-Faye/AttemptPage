@@ -50,7 +50,7 @@ nav ul li a {
 section {
   background-color: #FFFFFF;
   margin-bottom: 24px;
-  min-height: 320px;
+  min-height: 100px;
   padding-left: 24px;
   padding-right: 24px;
 }
